@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assetss\Body.png" />
+    <None Remove="Assetss\DeadBody.png" />
+    <None Remove="Assetss\DeadHead.png" />
+    <None Remove="Assetss\DroidSansMono.ttf" />
+    <None Remove="Assetss\Empty.png" />
+    <None Remove="Assetss\Food.png" />
+    <None Remove="Assetss\Head.png" />
+    <None Remove="Assetss\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assetss\Body.png" />
+    <Resource Include="Assetss\DeadBody.png" />
+    <Resource Include="Assetss\DeadHead.png" />
+    <Resource Include="Assetss\DroidSansMono.ttf" />
+    <Resource Include="Assetss\Empty.png" />
+    <Resource Include="Assetss\Food.png" />
+    <Resource Include="Assetss\Head.png" />
+    <Resource Include="Assetss\icon.ico" />
+  </ItemGroup>
+
+</Project>
