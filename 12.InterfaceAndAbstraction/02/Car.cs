@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfApp1
+namespace _02
 {
-    class DicTry
+    internal class Car
     {
     }
 }
