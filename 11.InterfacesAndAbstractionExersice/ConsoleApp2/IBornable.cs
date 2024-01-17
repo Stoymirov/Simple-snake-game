@@ -1,6 +1,6 @@
 ﻿namespace PersonInfo;
 
-public interface IBirthable
+public interface IBornable
 {
     string Birthdate { get; }
 }

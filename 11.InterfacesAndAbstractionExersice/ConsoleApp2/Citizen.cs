@@ -1,6 +1,6 @@
 ﻿namespace PersonInfo;
 
-public class Citizen:IPerson,IBirthable,IIdentifiable
+public class Citizen:IPerson,IBornable,IIdentifiable
 {
     public Citizen(string name, int age)
     {

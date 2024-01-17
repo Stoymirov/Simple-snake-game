@@ -11,9 +11,9 @@ public class StartUp
         string id = Console.ReadLine();
         string birthdate = Console.ReadLine();
         IIdentifiable identifiable = new Citizen(name, age, id, birthdate);
-        IBirthable birthable = new Citizen(name, age, id, birthdate);
+        IBornable bornable = new Citizen(name, age, id, birthdate);
         Console.WriteLine(identifiable.Id);
-        Console.WriteLine(birthable.Birthdate);
+        Console.WriteLine(bornable.Birthdate);
         
 
 
